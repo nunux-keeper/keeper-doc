@@ -1,0 +1,64 @@
+baseURL = "/"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Nunux Keeper Documentation"
+theme = "docdock"
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+
+[Languages]
+  [Languages.en]
+    title = "Nunux Keeper documentation"
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+
+  [Languages.fr]
+    title = "Documentation de Nunux Keeper"
+    weight = 2
+    languageName = "Français"
+    contentDir = "content/fr"
+
+
+[params]
+editURL = "https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/"
+showVisitedLinks = false # default is false
+themeStyle = "original" # "original" or "flex" # default "flex"
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-globe'></i> <label>Home page</label>"
+url = "https://keeper.nunux.org/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+url = "https://github.com/nunux-keeper"
+weight = 15
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> <label>API Documentation</label>"
+url = "https://api.nunux.org/keeper/api-docs/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn'></i> <label>Support this project</label>"
+url = "https://www.paypal.me/nunux"
+weight = 30
