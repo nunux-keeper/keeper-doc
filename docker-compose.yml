@@ -4,7 +4,9 @@ services:
   # Web portal
   #######################################
   doc:
-    image: "monachus/hugo:v0.48"
+    image: "registry.gitlab.com/pages/hugo"
+    command: hugo server --bind 0.0.0.0
+    working_dir: /usr/share/blog
     volumes:
       - ${PWD}:/usr/share/blog
     ports:

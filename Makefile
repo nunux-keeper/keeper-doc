@@ -4,7 +4,7 @@
 COMPOSE_FILES?=-f docker-compose.yml
 
 # Deployment directory
-DEPLOY_DIR:=/var/www/html/keeper.nunux.org/doc
+DEPLOY_DIR?=/var/www/html/keeper.nunux.org/doc
 
 # Deployment base URL
 DEPLOY_BASE_URL:=https://keeper.nunux.org/doc/
@@ -32,12 +32,15 @@ start:
 ## Install as a service (needs root privileges)
 install:
 	echo "Install generated files at deployment location..."
+	git submodule init
+	git submodule update
 	mkdir -p $(DEPLOY_DIR)
 	docker run --rm \
 		-v $(root_dir):/usr/share/blog \
 		-v $(DEPLOY_DIR):/usr/share/nginx/html \
+		-w /usr/share/blog \
 		-e "HUGO_BASEURL=$(DEPLOY_BASE_URL)" \
-		monachus/hugo:v0.48 \
+		registry.gitlab.com/pages/hugo \
 		hugo -d /usr/share/nginx/html/
 .PHONY: install
 
