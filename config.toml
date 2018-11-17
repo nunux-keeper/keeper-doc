@@ -8,9 +8,8 @@ pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir= false
+defaultContentLanguageInSubdir = true
 enableMissingTranslationPlaceholders = false
-
 
 [Languages]
   [Languages.en]

@@ -42,8 +42,7 @@ install:
 		-v $(root_dir):/usr/share/blog \
 		-v $(DEPLOY_DIR):/usr/share/nginx/html \
 		-w /usr/share/blog \
-		-e "HUGO_BASEURL=$(DEPLOY_BASE_URL)" \
 		registry.gitlab.com/pages/hugo \
-		hugo -d /usr/share/nginx/html/
+		hugo -d /usr/share/nginx/html/ -b $(DEPLOY_BASE_URL) --cleanDestinationDir
 .PHONY: install
 
