@@ -1,0 +1,11 @@
+version: "2.2"
+services:
+  #######################################
+  # Web portal
+  #######################################
+  doc:
+    image: "monachus/hugo:v0.48"
+    volumes:
+      - ${PWD}:/usr/share/blog
+    ports:
+      - "${PORT:-1313}:1313"
