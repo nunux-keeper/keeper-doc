@@ -32,6 +32,9 @@ start:
 ## Install as a service (needs root privileges)
 install:
 	echo "Install generated files at deployment location..."
+	rm -rf $(root_dir)/themes/docdock
+	git init
+	git submodule add https://github.com/vjeantet/hugo-theme-docdock.git themes/docdock
 	git submodule init
 	git submodule update
 	mkdir -p $(DEPLOY_DIR)
