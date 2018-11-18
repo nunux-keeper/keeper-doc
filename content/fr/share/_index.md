@@ -17,7 +17,7 @@ Pour partager un label, vous pouvez:
 
 La page d'édition d'un partage va s'ouvrir:
 
-![](/share/create-sharing.png?classes=border,shadow)
+![](create-sharing.png)
 
 Vous pouvez ici:
 
@@ -49,7 +49,7 @@ Pour gérer les partages, vous pouvez:
 
 La page de gestion des partages va s'ouvrir:
 
-![](/share/manage-sharing.png?classes=border,shadow)
+![](manage-sharing.png)
 
 Sur cette page, vous pouvez:
 

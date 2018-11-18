@@ -18,7 +18,7 @@ des favoris de votre navigateur.
 Maintenant vous pourrez, à tout moment de votre navigation sur un site d'intérêt,
 cliquer sur ce favoris et déclencher la bookmarklet.
 
-![](/create-doc/bookmarklet.png?classes=border,shadow)
+![](images/bookmarklet.png)
 
 La bookmarklet permet les actions suivantes:
 
@@ -34,7 +34,7 @@ La bookmarklet permet les actions suivantes:
 Une fois le document créé vous pouvez à nouveau cliquer sur la bookmarklet pour
 aller voir le résultat.
 
-![](/create-doc/bookmarklet-done.png?classes=border,shadow)
+![](images/bookmarklet-done.png)
 
 {{% notice note %}}
 Si vous n'êtes pas connecté, la bookmaklet vous affichera un cadenas

@@ -8,7 +8,7 @@ Les documents que vous créez sont les vôtres.
 De ce fait vous pouvez exporter l'ensemble de vos données (textes, labels et
 images) depuis l'écran des settings:
 
-![](/export/export.png?classes=border,shadow)
+![](export.png)
 
 Pour demander un export, cliquer sur le bouton `schedule an export`.
 En fonction de la charge serveur et du nombre de documents, ce traitement peut

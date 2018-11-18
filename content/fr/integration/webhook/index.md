@@ -52,7 +52,7 @@ L'endpoint HTTP configuré recevra en POST l'objet JSON suivant:
 
 Rendez-vous sur l'onglet `Webhook` de la page des settings pour créer un Webhook.
 
-![](/integration/create-webhook.png?classes=border,shadow)
+![](images/create-webhook.png?classes=border,shadow)
 
 Sur cette page, vous devez préciser:
 
@@ -63,4 +63,4 @@ Sur cette page, vous devez préciser:
 
 Vous pouvez par la suite éditer ce webhook ou le supprimer.
 
-![](/integration/manage-webhooks.png?classes=border,shadow)
+![](images/manage-webhooks.png?classes=border,shadow)

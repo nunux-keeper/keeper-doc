@@ -23,7 +23,7 @@ créer un document.
 
 La clé d'API s'obtient en allant sur la page des settings.
 
-![](/create-doc/api-key.png?classes=border,shadow)
+![](images/api-key.png)
 
 {{% notice warning %}}
 La clé d'API est affichée uniquement à sa création.
@@ -52,7 +52,7 @@ fournisseur d'authentification OpenID Connect.
 
 Allez sur la page des `settings` pour déclarer un client d'API Web.
 
-![](/create-doc/create-api-client.png?classes=border,shadow)
+![](images/create-api-client.png)
 
 Vous devez fournir:
 
@@ -67,5 +67,5 @@ nécessaires à votre client OIDC:
 - L'ID client
 - Et son secret
 
-![](/create-doc/edit-api-client.png?classes=border,shadow)
+![](images/edit-api-client.png)
 

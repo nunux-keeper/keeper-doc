@@ -11,7 +11,7 @@ Pour créer un nouveau document de zéro, vous pouvez:
 
 Une page d'édition de document va s'ouvrir:
 
-![](/create-doc/blank.png?classes=border,shadow)
+![](images/blank.png)
 
 Sur cette page, vous pouvez:
 

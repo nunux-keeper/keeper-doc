@@ -6,7 +6,7 @@ weight = 4
 
 Nunux Keeper dispose d'une CLI sous forme d'un binaire natif.
 
-![](/integration/cli.png?classes=border,shadow)
+![](images/cli.png?classes=border,shadow)
 
 Cette CLI peut être téléchargée [ici][keeper-cli-releases].
 

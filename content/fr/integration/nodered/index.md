@@ -4,7 +4,7 @@ description = "Comment intégrer Nunux Keeper avec NodeRED et donc le reste du m
 weight = 2
 +++
 
-![](/integration/node-red-logo.png?classes=border,shadow)
+![](images/node-red-logo.png?classes=border,shadow)
 
 NodeRED est un outil extrêmement puissant qui dispose d'un nombre impressionnant
 de connecteurs:
@@ -49,14 +49,14 @@ ouvrir un nœud OIDC et saisir les informations suivantes:
 - L'identifiant client et son secret
 
 
-![](/integration/node-red-oidc-config.png?classes=border,shadow)
+![](images/node-red-oidc-config.png?classes=border,shadow)
 
 Il suffit ensuite de connecter un nœud HTTP classique pour effectuer l'appel
 d'[API](https://api.nunux.org/keeper/api-docs/).
 
 **Exemple:**
 
-![](/integration/node-red-flow-sample.png?classes=border,shadow)
+![](images/node-red-flow-sample.png?classes=border,shadow)
 
 ```json
 [{"id":"51c3a06f.0cad88","type":"inject","z":"c9fcbc16.4ac74","name":"Post fake","topic":"documents","payload":"{\"origin\":\"https://tuhrig.de/generating-pdfs-with-java-flying-saucer-and-thymeleaf/\"}","payloadType":"json","repeat":"","crontab":"","once":false,"x":160,"y":260,"wires":[["45864a8.d01f2b4"]]},{"id":"45864a8.d01f2b4","type":"function","z":"c9fcbc16.4ac74","name":"POST","func":"msg.method = 'POST';\nreturn msg;","outputs":1,"noerr":0,"x":290,"y":260,"wires":[["85076194.6abfd"]]},{"id":"85076194.6abfd","type":"openid","z":"c9fcbc16.4ac74","name":"","openid":"","x":420,"y":260,"wires":[["35455354.1972ec"]]},{"id":"35455354.1972ec","type":"http request","z":"c9fcbc16.4ac74","name":"","method":"use","ret":"obj","url":"https://api.nunux.org/keeper/v2/{{{topic}}}","tls":"","x":570,"y":260,"wires":[["ebc7f4a1.c6843"]]},{"id":"ebc7f4a1.c6843","type":"debug","z":"c9fcbc16.4ac74","name":"","active":true,"console":"false","complete":"false","x":730,"y":260,"wires":[]}]

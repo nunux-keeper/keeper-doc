@@ -17,7 +17,7 @@ Pour créer un nouveau label, vous pouvez :
 
 La page d'édition de label va s'ouvrir:
 
-![](/organize/create-label.png?classes=border,shadow)
+![](create-label.png)
 
 Sur cette page vous pouvez:
 
@@ -32,7 +32,7 @@ documents.
 Les documents seront alors regroupés par label et vous pourrez naviguer entre
 les labels en cliquant dessus.
 
-![](/organize/doc-with-tags.png?classes=border,shadow)
+![](doc-with-tags.png)
 
 ### Le moteur de recherche
 
@@ -42,7 +42,7 @@ Ce dernier est un moteur de recherche "full text" très puissant: ElasticSearch
 Vous pouvez taper simplement vos mots clés ou avoir recours aux mots clés pour
 affiner votre recherche.
 
-![](/organize/searchbar.png?classes=border,shadow)
+![](searchbar.png)
 
 Exemples de recherche:
 

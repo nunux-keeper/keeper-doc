@@ -1,4 +1,4 @@
-![](/logo.svg?height=20px)
+![](/doc/logo.svg?height=20px)
 
 **NUNUX KEEPER**
 

@@ -13,7 +13,7 @@ Pour créer un nouveau document depuis une page Web, vous pouvez:
 
 Les deux premières actions vont ouvrir une page de saisie de l'URL cible:
 
-![](/create-doc/web-page.png?classes=border,shadow)
+![](images/web-page.png)
 
 Deux options se présentent à vous:
 

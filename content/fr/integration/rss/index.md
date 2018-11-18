@@ -18,7 +18,7 @@ Avec très peu de configuration, il est également possible d'intégrer:
 Pour Nunux Reader, il suffit d'activer le le service d'archivage dans l'écran de
 profil:
 
-![](/integration/nunux-reader.png?classes=border,shadow)
+![](images/nunux-reader.png?classes=border,shadow)
 
 {{% notice note %}}
 Pour une instance auto hébergée de Nunux Reader, il faudra configurer l'ID
@@ -30,11 +30,11 @@ et secret du client d'API.
 La [documentation officielle](https://docs.miniflux.app/en/latest/integration.html#nunux-keeper)
 de Miniflux explique comment effectuer l'intégration.
 
-![](/integration/miniflux.png?classes=border,shadow)
+![](images/miniflux.png?classes=border,shadow)
 
 ### Feedpushr
 
-![](/integration/feedpushr.png?classes=border,shadow)
+![](images/feedpushr.png?classes=border,shadow)
 
 Pour envoyer les articles de Feedpushr vers Nunux Keeper, vous devez obtenir
 une clé d'API puis utiliser la sortie `STDOUT` de Feedpusr comme suit:
