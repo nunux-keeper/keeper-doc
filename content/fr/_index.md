@@ -25,8 +25,8 @@ internet.
 
 A l'image du projet, cette documentation est libre et toute contribution est
 bienvenue.
-Pour cela, vous avez juste à cliquer sur le lien **Modifier** affiché
-en bas à gauche de chaque page, puis de créer une Pull Request.
+Pour cela, vous avez juste à cliquer sur le lien *Modifier* affiché
+en haut à droite de chaque page, puis de créer une Pull Request.
 
 Nous vous invitons à consulter le README du projet pour de plus amples détails.
 
