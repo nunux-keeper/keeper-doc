@@ -1,5 +1,5 @@
 +++
-title = "Organizing ans Searching"
+title = "Organizing and Searching"
 description = ""
 weight = 2
 +++
